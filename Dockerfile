@@ -31,7 +31,7 @@ RUN curl --location https://deb.nodesource.com/setup_0.12 | bash -
 RUN apt-get install -y nodejs
 
 RUN npm install -g grunt-cli@0.1.13 \
-                   s3-upload@@0.0.3 \
+                   s3-upload@0.0.3 \
                    cloudflare-cli@1.4.0 \
                    wintersmith@2.2.1 wintersmith-less@0.2.3 wintersmith-browserify@0.9.0
 

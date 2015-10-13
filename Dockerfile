@@ -12,6 +12,7 @@ RUN apt-get update && \
         git \
         build-essential \
         python python-dev && \
+        libkrb5-dev && \
     apt-get clean
 
 # ---

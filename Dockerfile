@@ -13,10 +13,10 @@ RUN apt-get update && \
         build-essential \
         pkg-config \
         python python-dev \
-        libkrb5-dev && \
-        libcairo2-dev && \
-        libjpeg-dev && \
-        libgif-dev
+        libkrb5-dev \
+        libcairo2-dev \
+        libjpeg-dev \
+        libgif-dev && \
     apt-get clean
 
 # ---

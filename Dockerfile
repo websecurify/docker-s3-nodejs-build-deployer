@@ -14,6 +14,9 @@ RUN apt-get update && \
         pkg-config \
         python python-dev \
         libkrb5-dev && \
+        libcairo2-dev && \
+        libjpeg-dev && \
+        libgif-dev
     apt-get clean
 
 # ---
